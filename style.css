@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1{
+  text-align: center;
+}
+
+figure{
+  /* text-align: center; */
+  display: block;
+  margin: auto;
+}
+
+img{
+  width: 800px;
+}
+
+nav{
+  text-align: center;
+  margin: 15px;
+}
+
+a{
+  padding: 0 10px;
+  background-color: rgba(122, 122, 122, 0.185);
+}
+
+section figure figcaption{
+  font-size: 12px;
+}
+
+#featured-property{
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+#details{
+background-color: rgba(251, 36, 36, 0.704);
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#details div{
+  width: 25%;
+}
